@@ -1,0 +1,270 @@
+[
+    {
+        "id": 0,
+        "naziv" : "Uvod",
+        "lekcije": [
+            {
+                "id": 1,
+                "naziv": "Uvod u Web tehnologije"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "naziv": "HTML",
+        "lekcije" : [
+            {
+                "id" : 11,
+                "naziv" : "Uvod u HTML",
+                "sadrzaj" : [
+                    "<div class='panel panel-primary'><div class='panel-body'><b>HTML</b> (<i>Hypertext Markup Language </i>) - <u>Jezik za opisivanje veb strana</u> - predstavljaju skup pravila za upravljanje pozicioniranjem i izgledom elemenata web stranice.</div>"
+                ] 
+            },
+            {
+                "id" : 12,
+                "naziv" : "HTML Tagovi",
+                "sadrzaj" : [
+                    "<p>Najosnovniji HTML elementi nazivaju se tagovima. Sintaksa tagova sastoji se iz sledećih oznaka: <ul><li>Otvorene uglaste zagrade <code> <</code> (\"strelica na levo\", \"znak manje\"),</li> <li>zatim sledi naziv taga, </li><li>i na kraju zatvorena uglaste zagrade <code> ></code> (\"strelica na desno\", \"znak veće\").</p>",
+                    "<p>Primer početnog taga: <code>&#x3C;html&#x3E;</code></p>",
+                    "<p>Na taj način je definisan <b>otvareni</b> ili <b>početni</b> tag. Sav sadržaj koji dolazi posle taga biće definisan tim tagom, sve do <b>zatvorenog</b> odnosno <b>završnog</b> taga.</p>",
+                    "<p>Završni tag, pored pomenutih oznaka sadrži i kosu crtu <code>/</code>, koja dolazi odmah nakon prve uglaste zagrade.</p>",
+                    "<p>Primer završnog taga:  <code>&#x3C;/html&#x3E;</code>",
+                    "<p>Konačno, primer sa otvorenim i zatvorenim tagom izgleda ovako:</p>",
+                    ["kod","<iframe height='200' style='width: 100%;' scrolling='no' title='WqrBBq' src='//codepen.io/marko-ovi/embed/WqrBBq/?height=300&theme-id=37401&default-tab=html,result' frameborder='no' allowtransparency='true' allowfullscreen='true'>See the Pen <a href='https://codepen.io/marko-ovi/pen/WqrBBq/'>WqrBBq</a> by Marko Šović(<a href='https://codepen.io/marko-ovi'>@marko-ovi</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>"],
+                    "<p>U ovom slučaju između <code>&#x3C;p&#x3E; &#x3C;/p&#x3E;</code> tagova nalazi se tekstualni sadržaj. Međutim, sadržaj tagova mogu biti i drugi HTML elementi, tada je reč o \"umetnutim\" ili \"ugneždenim\" (<i>nested</i>) elementima</p>",
+                    ["kod","<iframe height='200' style='width: 100%;' scrolling='no' title='EqZZYy' src='//codepen.io/marko-ovi/embed/EqZZYy/?height=300&theme-id=37401&default-tab=html,result' frameborder='no' allowtransparency='true' allowfullscreen='true'>See the Pen <a href='https://codepen.io/marko-ovi/pen/EqZZYy/'>EqZZYy</a> by Marko Šović(<a href='https://codepen.io/marko-ovi'>@marko-ovi</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>"],
+                    "<p>Većina HTML elemenata ima i početni i završni tag, ali postoji i nekoliko izuzetaka - elemenata koji se definišu samo početnim tagom i nemaju završni tag.</p>"
+                ] 
+            },
+            {
+                "id" : 13,
+                "naziv" : "Naslovi, paragrafi i komentari",
+                "sadrzaj" : [
+                    "<p><b>Naslovi</b> (<i>heading</i>) se mogu pisati u 6 novoa veličine i označavaju se sledećim tagovima:</p>",
+                    "<p><code>&#x3C;h1&#x3E; &#x3C;/h1&#x3E;</code> , <code>&#x3C;h2&#x3E; &#x3C;/h2&#x3E;</code> , <code>&#x3C;h3&#x3E; &#x3C;/h3&#x3E;</code> , <code>&#x3C;h4&#x3E; &#x3C;/h4&#x3E;</code> , <code>&#x3C;h5&#x3E; &#x3C;/h5&#x3E;</code> , <code>&#x3C;h6&#x3E; &#x3C;/h6&#x3E;</code><br></p>",
+                    "<p>Primeri:</p>",
+                    ["kod","<iframe height='300' style='width: 100%;' scrolling='no' title='WVRRRq' src='//codepen.io/marko-ovi/embed/WVRRRq/?height=300&theme-id=37401&default-tab=html,result' frameborder='no' allowtransparency='true' allowfullscreen='true'>'See the Pen <a href='https://codepen.io/marko-ovi/pen/WVRRRq/'>WVRRRq</a> by Marko Šović'(<a href='https://codepen.io/marko-ovi'>@marko-ovi</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>"],
+                    "<p>Dakle, <code>&#x3C;h1&#x3E; &#x3C;/h1&#x3E;</code> tagovi daju naslov najveće veličine, a <code>&#x3C;h6&#x3E; &#x3C;/h6&#x3E;</code> naslov najmanje veličine</p>"
+                ] 
+            },
+            {
+                "id" : 14,
+                "naziv" : "Osnovna struktura HTML dokumenta",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            },
+            {
+                "id" : 15,
+                "naziv" : "Formatiranje teksta",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            },
+            {
+                "id" : 16,
+                "naziv" : "HTML Atributi",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            },
+            {
+                "id" : 17,
+                "naziv" : "Postavljanje slika",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            },
+            {
+                "id" : 18,
+                "naziv" : "HTML Linkovi",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            },
+            {
+                "id" : 19,
+                "naziv" : "HTML Liste",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            },
+            {
+                "id" : 111,
+                "naziv" : "HTML Tabele",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            },
+            {
+                "id" : 112,
+                "naziv" : "HTML Forme",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            },
+            {
+                "id" : 113,
+                "naziv" : "Divajderi",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            },
+            {
+                "id" : 114,
+                "naziv" : "Uvod u HTML5",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            },
+            {
+                "id" : 115,
+                "naziv" : "HTML5 Divajderi",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            },
+            {
+                "id" : 116,
+                "naziv" : "Ugradjivanje elemenata",
+                "sadrzaj" : [
+                    "",
+                    ""
+                ] 
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "naziv": "CSS",
+        "lekcije" : [
+            {
+                "id" : 21,
+                "naziv" : "Uvod u CSS",
+                "sadrzaj" : [
+                    "<div class='panel panel-primary'><div class='panel-body'><b>CSS</b> (<i>Cascading style sheets</i>) - <u>Kaskadni opisi stilova</u> - predstavljaju skup pravila za upravljanje pozicioniranjem i izgledom elemenata web stranice.</div>",
+                    "<h4>Gde se piše CSS?</h4>",
+                    "<h4><br><b>1. Unutarlinijski stilovi</b></h4>",
+                    "<p>CSS Možemo pisati direktno unutar HTML koda, i to za svaki od željenih HTML tagova unutar samog taga. Tada govorimo o <b>unutarlinijskim stilovima</b> (<i>inline styles</i>).</p>",
+                    "<p>Ukoliko želimo na ovaj način stilizovati element koristimo atribut <code>style</code> i zatim kao vrednost atributa, zadajemo posebne vrednosti za svako svojstvo po sledećoj sintaksi:</p>",
+                    ["moj-kod"," svojstvo:vrednost; svojstvo:vrednost"],
+                    "<p>Dakle, definišemo svojstvo na koje želimo da utičemo i dajemo mu određenu vrednost, između naziva svojstva i njegove vrednosti piše se        „ : “, a nakon svakog „svojstvo:vrednost“ para, obavezno pišemo „ ; “, pre nego pređemo na definisanje sledećeg.</p>Primer:",
+                    ["kod","<iframe height='168' style='width: 100%;' scrolling='no' title='YmwzON' src='//codepen.io/marko-ovi/embed/YmwzON/?height=168&theme-id=37401&default-tab=html,result' frameborder='no' allowtransparency='true' allowfullscreen='true'>See the Pen <a href='https://codepen.io/marko-ovi/pen/YmwzON/'>YmwzON</a> by Marko Šović(<a href='https://codepen.io/marko-ovi'>@marko-ovi</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>"],
+                    "<h4><br><b>2. Interni stilovi</b></h4>",
+                    "<p>CSS Možemo pisati unutar <code>&#x3C;style&#x3E; &#x3C;/style&#x3E;</code> tagova, koje postavljamo unutar HTML dokumenta, uglavnom na početku, pre drugog sadžaja. U tom slučaju reč je o <b>unutrašnjim ili internim stilovima</b> (<i>internal style sheet</i>)</p>",
+                    "<p>Između ovih tagova pišemo CSS pravila, po sledećoj sintaksi:</p><ul><li>Najpre naziv selektora (kojim se definiše na koje elemente se naš skup pravila odnosi),</li> <li>zatim „otvorena vitičasta zagrada“ – „ { “, </li><li>zatim skup pravila po gore navedenoj sintaksi <code>svojstvo: vrednost;</code>, </li><li>na kraju zatvorena vitičasta zagrada „ } “.</li></ul>Primer:",
+                    ["kod","<iframe height='298' style='width: 100%;' scrolling='no' title='XvXJNX' src='//codepen.io/marko-ovi/embed/XvXJNX/?height=298&theme-id=37401&default-tab=html,result' frameborder='no' allowtransparency='true' allowfullscreen='true'>See the Pen <a href='https://codepen.io/marko-ovi/pen/XvXJNX/'>XvXJNX</a> by Marko Šović(<a href='https://codepen.io/marko-ovi'>@marko-ovi</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>"],
+                    "<br><h4><b>3. Eksterni stilovi</b></h4>",
+                    "<p>Umesto dva pomenuta načina, treći način (koji je najčešće u upotrebi), podrazumeva pisanje CSS koda unutar zasebnog dokumenta, sa ekstenzijom <b>.css</b>. Tada je reč o <b>spoljnim ili eksternim stilovima</b> (<i>external style sheet</i>)</p>",
+                    "<p>U tom slučaju neophodno je povezivanje tog zasebnog dokumenta, sa stranicom, tj sa HTML dokumentom na kome trenutno radimo i na čiji sadržaj želimo da se pravila u zasebnom CSS dokumentu odnose.",
+                    "<p>Povezivanje HTML dokumenta sa CSS dokumentom postiže se na sledeći način - unutar HTML dokumenta, a u okviru <code>&#x3C;head&#x3E; &#x3C;/head&#x3E;</code> tagova dodajemo sledeći kod:</p>",
+                    ["moj-kod","<link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\">"],
+                    "<p>Od svih navedenih atributa unutar taga ni jedan nije potrebno modifikovati osim <code>href</code> atributa, sve ostale atribute i njihove vrednosti definišemo kao u navedenom primeru. Vrednost <code>href</code> atributa predstavlja naziv ili preciznije - lokaciju sa nazivom CSS dokumenta. U gore navedenom primeru podrazumevamo da se <b>style.css</b> dokument nalazi u istom folderu kao i HTML dokument</p>Primer:",
+                    ["kod","<iframe height='300' style='width: 100%;' scrolling='no' title='eqJqpw' src='//codepen.io/marko-ovi/embed/eqJqpw/?height=300&theme-id=37401&default-tab=css,result' frameborder='no' allowtransparency='true' allowfullscreen='true'>See the Pen <a href='https://codepen.io/marko-ovi/pen/eqJqpw/'>eqJqpw</a> by Marko Šović(<a href='https://codepen.io/marko-ovi'>@marko-ovi</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>"]
+                ] 
+            },
+            {
+                "id" : 22,
+                "naziv" : "CSS Selektori",
+                "sadrzaj" : [
+                    "<p><b>Selektor</b> definiše na koje se HTML elemente odnose stilovi definisani u okviru skupa deklaracija koje dodeljujemo selektoru. Sintaksa CSS koda, koja se sastoji od selektora i bloka deklaracija, prikazana je ispod.</p>",
+                    "<h4><br><b>1. Elementarni selektor</b></h4>",
+                    "<p>U navedenom primeru imamo elementerni selektor, koji se u ovom slučaju odnosi na <code>&#x3C;p&#x3E;</code> tagove.</p>",
+                    "<p>Ovako definisan on se odnosi  globalno na sve <code>&#x3C;p&#x3E;</code> elemente tj, navedene deklaracije odnosi&#x107;e se na svaki <code>&#x3C;p&#x3E;</code> element, bez obzira gde se u strukturi HTML dokumenta on nalazi.</p>",
+                    "<p>Kad god imamo običan HTML tag na mestu selektora, govorimo o elementarnom selektoru, i gotovo svaki HTML tag se može koristiti kao elementarni selektor.</p>",
+                    "<h4><br><b>2. Univerzalni selektor</b></h4>",
+                    "<p>Omogućava selekciju svih elemenata na stranici i obeležava se <b>zvezdicom</b> <code>*</code>. Skup deklaracija navedenih pod ovim selektorom uticaće na svaki element bez obzira na vrstu taga.</p>",
+                    "<p>Stilovi navedeni pod ovim tagom smatraju se globalnim stilovima, zbog toga su idealni za promenu fonta stranice, upotrebu <a class=\"inner-link\" href=\"#/CSS/Spoljna Linija (Outline)\">spoljne linije</a>  i drugih pomocnih stilova tokom pisanja CSS dokumenta</p>",
+                    "<h4><br><b>3. Selektor klase</b></h4>",
+                    "<p>Ukoliko želimo da se naš skup deklaracija odnosi samo na određeni broj elemenata, tim elementima dodeljujemo atribut <code>class</code> i vrednost atributa po izboru.</p>",
+                    "<p>Vrednost koju smo dodelili predstavlja naziv naše klase, taj naziv, odn. tu klasu sada možemo koristiti kao selektor, pri čemu se ispred naziva klase piše <b>tačka</b> <code>.primer</code>.</p>",
+                    "<h4><br><b>3. ID selektor</b></h4>",
+                    "<p>Ukoliko je neophodno da selektujemo pojedinačni element unutar HTML-a, tako da se blok deklaracija ondosi isključitvo na njega, onda tom elementu dodeljujemo atribut <code>id</code> i a vrednost biramo proizvoljno</p>",
+                    "<p>Primeri</p>",
+                    ["kod", "<iframe height='313' @load='proba' style='width: 100%;' scrolling='no' title='rXWazq' src='//codepen.io/marko-ovi/embed/rXWazq/?height=313&theme-id=37401&default-tab=css,result' frameborder='no' allowtransparency='true' allowfullscreen='true'>See the Pen <a href='https://codepen.io/marko-ovi/pen/rXWazq/'>rXWazq</a> by Marko Šović(<a href='https://codepen.io/marko-ovi'>@marko-ovi</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>"],
+                    "<p></p>"
+                  
+                ] 
+            },
+            {
+                "id" : 23,
+                "naziv" : "Uređivanje teksta",
+                "sadrzaj" : [
+                    "<h4><br><b>Boja Teksta <code>color</code></b></h4>",
+                    "<p>Boja se selektovanim elementima dodeljuje na osnovu deklaracije <code>color</code> svojstva. Vrednost za <code>color</code> svojstvo se dodeljuje pomoću jednog od nekoliko mogućih oblika zapisa boje, u koje spadaju: zapis preko imena, zapis preko \"rgb\" vrednosti, heksadecimalni zapis ili \"hsl\" vrednost.</p>",
+                    "<p>primer:</p>",
+                    ["kod","<iframe height='312' style='width: 100%;' scrolling='no' title='wVogXB' src='//codepen.io/marko-ovi/embed/wVogXB/?height=312&theme-id=37401&default-tab=css,result' frameborder='no' allowtransparency='true' allowfullscreen='true'>See the Pen <a href='https://codepen.io/marko-ovi/pen/wVogXB/'>wVogXB</a> by Marko Šović(<a href='https://codepen.io/marko-ovi'>@marko-ovi</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>"],                    
+                    "<h4><br><b>Poravnanje teksta <code>text-align</code></b></h4>",
+                    "<p>Poravnanje teksta se postiže pomoću svojstva <code>text-align</code>. Ovom svojstvu se zatim mogu dodeliti vrednosti <code>left</code> - za poravnanje u levo, <code>right</code> - za poravnanje u desno, <code>center</code> - za centriranje, <code>justify</code> - za poravnanje sa obe strane.",
+                    "<p>primer:</p>",
+                    ["kod","<iframe height='300' style='width: 100%;' scrolling='no' title='QeGvEZ' src='//codepen.io/marko-ovi/embed/QeGvEZ/?height=300&theme-id=37401&default-tab=css,result' frameborder='no' allowtransparency='true' allowfullscreen='true'>See the Pen <a href='https://codepen.io/marko-ovi/pen/QeGvEZ/'>QeGvEZ</a> by Marko Šović(<a href='https://codepen.io/marko-ovi'>@marko-ovi</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>"],
+                    "<h4><br><b>Uvlačenje teksta <code>text-indent</code></b></h4>",
+                    "<p>Da bi uvukli prvi red teksta u koristimo svojstvo <code>text-indent</code>, njemu kao vrednost dodeljujemo brojevnu vrednost izraženu u nekoj od jedinica</p>",
+                    "<h4><br><b>Visina linije teksta <code>line-height</code></b></h4>",
+                    "<p>Da bi odredili razmak između redova, možemo modifikovati visinu linije teksta. To se postiže pomoću atributa <code>line-height</code> . Tekst će se vertikalno centrirati u datoj visini.</p>",
+                    "<p>primer</p>"
+                ] 
+            },
+            {
+                "id" : 24,
+                "naziv" : "Upravljanje pozadinom",
+                "sadrzaj" : [
+                    "<p>Svojstva grupe <code>background</code>, služe za stilizovanje pozadine nekog elementa. Na taj način možemo odrediti neku određenu boju ili sliku kao način izgleda pozadine.</p>",
+                    "<p><code>background-color</code> – ovo svojstvo deklariše da će pozadina elementa biti određene boje, kao vrednost se zatim zadaje ili tekstualni ili \"HEX\" ili \"RGB\" zapis boje.</p>"
+                ] 
+            },
+            {
+                "id" : 25,
+                "naziv" : "Osobine okvira (Border)",
+                "sadrzaj" : [
+                    "<p>Pomoću svojstva <code>border</code> moguće je stilizovati okvir elemenata.</p>",
+                    "<p>Primer: <code>border: 1px solid red;</code>",
+                    "<p>Navedena deklaracija definiše okvir od jednog piksela pune linije koja je crvene boje.</p>",
+                    "<p>Ovakvom deklaracijom definišemo ujedno i širinu i tip linije i boju linije. Ta svojstva možemo definisati i odvojeno:</p>",
+                    "<ul><li><code>border-top</code> – definiše gornju ivicu okvira</li><li><code>border-bottom</code> – definiše donju ivicu okvira</li><li><code>border-right</code> – definiše desnu ivicu</li><li><code>border-left</code> – definiše levu ivicu</li><li><code>border-color</code> – ukoliko želimo posebno definisati boju okvira</li><li><code>border-width</code> – ukoliko želimo posebno definisati širinu okvira</li><li><code>border-style</code> – ukoliko želimo posebno definisati tip linije.</li></ul>",
+                    "<p>Mogući tipovi linije okvira su:</p>",
+                    "<ul><li><code>solid </code>– puna linija  </li><li><code>dashed</code> – isprekidana linija</li><li><code>dotted</code> – tačkasta linija</li><li><code>double</code> – dupla linija</li></ul>"
+                ] 
+            },
+            {
+                "id" : 26,
+                "naziv" : "Dimenzije elementa",
+                "sadrzaj" : [
+                    "<p>Osnovne dimenzije elementa možemo odrediti pomoću svojstava <code>width</code> za širinu i <code>height</code> za visinu, njima dodeljujemo brojevne vrednosti izražene u nekoj od jedinica, ili u procentima.</p>",
+                    ""
+
+                ] 
+            },
+            {
+                "id" : 27,
+                "naziv" : "Model Kutije",
+                "sadrzaj" : [
+                    "<h4><br><b>Unutrašnje rastojanje <code>padding</code></b></h4>",
+                    "Svojstvo <code>padding</code> definiše prostor između okvira elementa i sadržaja elementa. Odnosno stvara prazan prostor  ",
+                    "<h4><br><b>Spoljno rastojanje <code>margin</code></b></h4>",
+                    "Margine definišu prostor između okvira elementa i njegovog okruženja."
+                ] 
+            },
+            {
+                "id" : 28,
+                "naziv" : "CSS Prikazi",
+                "sadrzaj" : [
+                    "<p>hocemo da kazemo da postoje <div> tagovi </p>",
+                    "<p>hocemo da kazemo da postoje <code>&#x3C;div&#x3E;</code> tagovi </p>"
+                ] 
+            }
+        ]
+    }
+
+]
